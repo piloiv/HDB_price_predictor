@@ -29,6 +29,16 @@ Now, let's open the terminal inside VS Code and run the files in the correct chr
 * Press **`Ctrl + \``** (backtick) on Windows or **`Cmd + \``** on a Mac to open the built-in terminal at the bottom of your screen.
 
 ### Step 2: Install Required Libraries
+Create a virtual environment
+
+  ```bash
+  conda create --name hdb_project
+  ```
+Activate the environment
+
+  ```bash
+  conda activate hdb_project
+  ```
 We must install the exact Python tools our code relies on. Run the following command based on your computer's operating system:
 
   ```bash
